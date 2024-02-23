@@ -77,6 +77,7 @@ main {
 }
 .sec-1 p {
   line-height: 1.9;
+  font-size: 16px;
 }
 .sec-1 img {
   border-radius: 45px;
@@ -147,6 +148,7 @@ line-height:2;
 }
 .thework p {
   line-height: 1.8;
+  font-size: 16px;
 }
 .thework button, #cwm {
   color: #6622ee;
