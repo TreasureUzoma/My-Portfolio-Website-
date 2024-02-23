@@ -6,6 +6,9 @@ body {
   font-family: Nunito;
   max-width: 99%;
 }
+.desktop-nav {
+  display: none;
+}
 nav {
   position: fixed;
   background-color: white;
@@ -257,4 +260,74 @@ pre {
 #menu-item .underlined {
   text-decoration: underline;
   text-decoration-color: #6622ee;
+}
+@media (min-width: 768px) {
+   .nav-top {
+     margin-right: 10px;
+
+  }
+   #scrollButton {
+     display: none;
+   }
+   .desktop-nav {
+    display: block;
+    padding: 10px 3px;
+    float: right;
+    word-spacing: 15px;
+ }
+  .desktop-nav a {
+    color: #120012;
+    text-decoration: none;
+ }
+ .category-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+ }
+ .grid-3 {
+   grid-template-columns: repeat(3, 1fr);
+ }
+  .category-item {
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     text-align: left;
+     width: 80%;
+     margin: 0 20px;
+     background-color: white;/*v1 #EAECFF*/
+     color:black;
+     border-radius: 10px;
+     text-decoration: none;
+     padding:15px 18px;
+    /*font-weight: bold 
+    no longer needed 
+    */
+     }
+     .header1 {
+       height: 400px;
+     }
+  .header1 .content-2 {
+    margin-top: 100px;
+  }
+  .meall {
+background: transparent;
+border:none;
+border-radius:15px;
+width:90%;
+align-content:center;
+margin:5%;
+}
+.meo {
+  background-color: #f9f9fc;
+  border-radius: 20px;
+}
+.sec-1 {
+  padding: 80px 30px;
+}
+.sec-3 {
+  padding: 5% 25px;
+}
+footer {
+  padding: 50px 20px;
+}
 }
