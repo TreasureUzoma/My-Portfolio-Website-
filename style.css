@@ -175,12 +175,47 @@ footer a {
   color: #6622ee;
   font-weight: bold;
 }
-.footer {
-width:97%;
-border:none;
-margin:6px;
-height:25pc;
+.sec-3 {
 border-radius:25px;
 background:#22233f;
-line-height:30px;
+line-height:1.9;
+color: #fff;
+padding: 25% 25px;
+justify-content: center;
+margin: 25px 10px 55px 10px;
+}
+.ldt {
+color:white;
+background:transparent;
+border-radius:25px;
+border:3px solid #5CDB95;
+font-size:18px;
+font-family:Nunito;
+font-weight: bold;
+padding: 12px 25px;
+outline:none;
+}
+.ldt:active {
+background:#5CDB95;
+color:#22233f;
+}
+.sp {
+color:white;
+}
+.it {
+color:white;
+font-family:Nunito;
+line-height:27px;
+}
+.ft {
+color:white;
+padding:130px 40px;
+font-size:19px;
+line-height:1.9;
+}
+h2 {
+   font-size:18px;
+}
+pre {
+    color:#22233f;
 }
