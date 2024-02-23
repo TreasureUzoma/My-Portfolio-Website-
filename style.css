@@ -45,9 +45,18 @@ nav {
    justify-content: center;
    margin: 95px 0 0 0;
  }
- header {
+ .header1{
    padding: 10px;
    height: 680px;
+ }
+ .header2{
+   margin: 0 -8px 35px -8px;
+   background-color: #6622ee;
+   display: flex;
+   padding: 25px 0;
+   justify-content: center;
+   color: #fff;
+   
  }
  header p {
    font-size: 17px;
