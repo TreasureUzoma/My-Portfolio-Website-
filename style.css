@@ -63,7 +63,7 @@ nav {
  }
  header p {
    font-size: 17px;
-   line-height: 1.9;
+   line-height: 1.9em;
    font-family: Rubik;
  }
 main {
@@ -76,7 +76,7 @@ main {
   padding: 130px 30px 160px 30px;
 }
 .sec-1 p {
-  line-height: 1.9;
+  line-height: 1.9em;
   font-size: 16px;
 }
 .sec-1 img {
@@ -118,7 +118,7 @@ padding:50px 10px;
 color:#525b60;
 font-size:16px;
 font-family:Nunito;
-line-height:2;
+line-height:2em;
 }
 .mystack {
   margin: 70px 0;
@@ -147,7 +147,7 @@ line-height:2;
   margin: 55px 15px;
 }
 .thework p {
-  line-height: 1.8;
+  line-height: 1.8em;
   font-size: 16px;
 }
 .thework button, #cwm {
@@ -173,7 +173,7 @@ footer {
   color: #fff;
 }
 footer p {
-  line-height: 1.9;
+  line-height: 1.9em;
   font-size: 18px;
   font-family: Rubik;
 }
@@ -192,7 +192,7 @@ footer a {
 .sec-3 {
 border-radius:25px;
 background:#22233f;
-line-height:1.9;
+line-height:1.9em;
 color: #fff;
 padding: 25% 25px;
 justify-content: center;
@@ -219,13 +219,13 @@ color:white;
 .it {
 color:white;
 font-family:Nunito;
-line-height:27px;
+line-height:1.9em;
 }
 .ft {
 color:white;
 padding:130px 40px;
 font-size:19px;
-line-height:1.9;
+line-height:1.9em;
 }
 h2 {
    font-size:18px;
@@ -251,7 +251,7 @@ pre {
 }
 #menu-item a {
   display: block;
-  line-height: 2;
+  line-height: 1.9em;
   color: #120012;
   font-weight: bold;
   text-decoration: none;
