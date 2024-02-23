@@ -219,3 +219,33 @@ h2 {
 pre {
     color:#22233f;
 }
+
+
+#menu-item {
+  position: fixed;
+  background-color: rgb(255,255,255);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 25px;
+  z-index: 999;
+  display: none;
+  text-align: center;
+  padding-top: 70%;
+  font-size: 22px;
+}
+#menu-item a {
+  display: block;
+  line-height: 2;
+  color: #120012;
+  font-weight: bold;
+  text-decoration: none;
+}
+#menu-item a:active {
+  color: #6622ee;
+}
+#menu-item .underlined {
+  text-decoration: underline;
+  text-decoration-color: #6622ee;
+}
