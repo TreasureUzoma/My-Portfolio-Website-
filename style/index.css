@@ -50,8 +50,8 @@ header {
 .social-icons {
   padding: 5px 10px;
   font-size: 17px;
-  color: #6622ee;
-  border: 2px solid #6622ee;
+  color: #34AFCB;
+  border: 2px solid #34AFCB;
   border-radius: 22px;
   margin: 0 10px 0 0;
 }
@@ -71,7 +71,7 @@ main p {
 .avatar-container {
     display: inline-block;
     position: relative;
-    border: 2px solid #6622ee;
+    border: 2px solid #34AFCB;
     padding: 10px;
     margin: 35px 5px 0px 5px;
 }
