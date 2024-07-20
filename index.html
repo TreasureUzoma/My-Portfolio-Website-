@@ -19,7 +19,7 @@
       <div class="grid">
         <div class="grid-item">
           <div class="item">
-            <h1>Creative Frontend Developer.</h1>
+            <h1 class="gradient-text">Creative Frontend Developer.</h1>
             </div>
           <div class="item">
             <p>I code and design simple beautiful things, and I love what I do.</p>
@@ -42,7 +42,7 @@
         </div>
         <div class="grid-item">
           <div class="avatar-container">
-            <img src="https://vickyjay.brimble.app/images/hero.png" alt="avatar" class="avatar-pic">
+            <img src="/images/hero.png" alt="avatar" class="avatar-pic">
         <div class="avatar-border"></div>
       </div>
       </div>
@@ -191,7 +191,7 @@
             <h3>GitHub</h3>
           </div>
         </div>
-        <div class="block-3 block-left">
+        <div class="block-3 block-right">
           <div>
             <h3>Animations</h3>
           </div>
@@ -224,34 +224,3 @@
     </footer>
   </body>
 </html>
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-    const block1 = document.querySelectorAll('.block-1');
-    const block2 = document.querySelectorAll('.block-2');
-
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate__animated', 'animate__pulse');
-                observer.unobserve(entry.target);
-            }
-        });
-    });
-    const observer2 = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('animate__animated', 'animate__zoomIn');
-                observer.unobserve(entry.target);
-            }
-        });
-    });
-
-    block1.forEach(block => {
-        observer.observe(block);
-    });
-    block2.forEach(block => {
-        observer2.observe(block);
-    });
-});
-
-</script>
