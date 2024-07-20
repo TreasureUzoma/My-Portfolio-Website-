@@ -35,6 +35,12 @@ nav a i {
 header {
   margin: 40px 20px 20px 30px;
 }
+.gradient-text {
+    background: linear-gradient(to right, #FCFAE9, #DFE9FE);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .grid {
   padding: 35px 0;
 }
