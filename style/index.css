@@ -77,7 +77,7 @@ main p {
 }
 
 .avatar-pic {
-    width: 250px;
+    width: 260px;
     display: block;
     border: none;
     margin: -25px 0 0 -25px;
@@ -246,7 +246,10 @@ footer a {
     grid-template-columns: repeat(3, 1fr);
      gap: 15px 10px;
   }
+  header p {
+    font-size: 0.53rem;
+  } 
   p {
-    font-size: 14px;
+    font-size: 0.63em;
   }
 }
