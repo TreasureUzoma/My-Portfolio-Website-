@@ -39,8 +39,29 @@ header {
     background: linear-gradient(to right, #FCFAE9, #DFE9FE);
     -webkit-background-clip: text;
     color: transparent;
+    line-height: 2.6rem;
+    animation: colorChange 1s infinite;
 }
-
+@keyframes colorChange {
+  0% {
+    background: linear-gradient(to right, #FCFAE9, #DFE9FE);    
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 1s infinite;
+}
+  50% {
+    background: linear-gradient(to right, #DFE9FE, #DFE9FE);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 1s infinite;
+}    
+  100% {
+    background: linear-gradient(to right, #DFE9FE, #FCFAE9);
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: colorChange 1s infinite;
+}  
+}
 .grid {
   padding: 35px 0;
 }
@@ -231,7 +252,9 @@ footer a {
 }
 @media (min-width: 768px) {
   .grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+     gap: 15px;
     justify-content: center;
     align-items: center;
   }
