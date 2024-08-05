@@ -40,27 +40,24 @@ header {
     -webkit-background-clip: text;
     color: transparent;
     line-height: 2.6rem;
-    animation: colorChange 1s infinite;
+    animation: colorChange 2s infinite;
 }
 @keyframes colorChange {
   0% {
     background: linear-gradient(to right, #FCFAE9, #DFE9FE);    
     -webkit-background-clip: text;
     color: transparent;
-    animation: colorChange 1s infinite;
-}
+  }
   50% {
     background: linear-gradient(to right, #DFE9FE, #DFE9FE);
     -webkit-background-clip: text;
     color: transparent;
-    animation: colorChange 1s infinite;
-}    
+  }
   100% {
     background: linear-gradient(to right, #DFE9FE, #FCFAE9);
     -webkit-background-clip: text;
     color: transparent;
-    animation: colorChange 1s infinite;
-}  
+  }
 }
 .grid {
   padding: 35px 0;
