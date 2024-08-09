@@ -40,24 +40,27 @@ header {
     -webkit-background-clip: text;
     color: transparent;
     line-height: 2.6rem;
-    animation: colorChange 2s infinite;
+    animation: colorChange 1s infinite;
 }
 @keyframes colorChange {
   0% {
     background: linear-gradient(to right, #FCFAE9, #DFE9FE);    
     -webkit-background-clip: text;
     color: transparent;
-  }
+    animation: colorChange 1s infinite;
+}
   50% {
     background: linear-gradient(to right, #DFE9FE, #DFE9FE);
     -webkit-background-clip: text;
     color: transparent;
-  }
+    animation: colorChange 1s infinite;
+}    
   100% {
     background: linear-gradient(to right, #DFE9FE, #FCFAE9);
     -webkit-background-clip: text;
     color: transparent;
-  }
+    animation: colorChange 1s infinite;
+}  
 }
 .grid {
   padding: 35px 0;
@@ -93,7 +96,6 @@ main p {
     padding: 10px;
     margin: 35px 5px 0px 5px;
 }
-
 .avatar-pic {
     width: 260px;
     display: block;
@@ -232,6 +234,93 @@ main p {
   font-size: 18px;
   margin-right: 5px;
 }
+.timeline {
+  position: relative;
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+}
+.timeline:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #4C5A5D;
+  transform: translateX(-50%);
+}
+.timeline-item {
+  position: relative;
+  width: 50%;
+  height: 10rem;
+  display: flex;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.timeline-item:nth-child(odd) {
+  left: 0;
+}
+
+.timeline-item:nth-child(even) {
+  left: 50%;
+  padding-left: 25px;
+}
+
+.timeline-item:before {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -9px;
+  width: 18px;
+  height: 18px;
+  background: #34AFCB;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-item:nth-child(even):before {
+  left: -9px;
+  right: auto;
+}
+.timeline-item:nth-child(2):before {
+  background: #34AFCB;
+}
+
+.timeline-item:nth-child(4):before {
+  background: #34AFCB;
+}
+#work-block {
+  display: none;
+}
+.qual-txt-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qual-txt {
+  padding: 0 20px;
+  display: flex;
+  color: #A3AFB2;
+  justify-content: center;
+}
+.qual-txt span {
+  padding: 3px;
+}
+.timeline p {
+  line-height: 1rem;
+}
+.timeline p:last-child {
+  align-items: center;
+  display: flex;
+}
+.timeline p i{
+  font-size: 15px;
+  padding-right: 5px;
+}
 footer {
   margin: 40px 20px;
 }
@@ -273,3 +362,4 @@ footer a {
     font-size: 0.63em;
   }
 }
+.colored { color: #34AFCB; }
