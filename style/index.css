@@ -274,16 +274,16 @@ main p {
   content: '';
   position: absolute;
   top: 20px;
-  right: -9px;
-  width: 18px;
-  height: 18px;
+  right: -7.5px;
+  width: 15px;
+  height: 15px;
   background: #34AFCB;
   border-radius: 50%;
   z-index: 1;
 }
 
 .timeline-item:nth-child(even):before {
-  left: -9px;
+  left: -7.5px;
   right: auto;
 }
 .timeline-item:nth-child(2):before {
