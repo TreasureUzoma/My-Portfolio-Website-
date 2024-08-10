@@ -303,6 +303,7 @@ main p {
 }
 .qual-txt {
   padding: 0 20px;
+  cursor: pointer;
   display: flex;
   color: #A3AFB2;
   justify-content: center;
