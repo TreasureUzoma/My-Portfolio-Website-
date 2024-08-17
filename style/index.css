@@ -337,30 +337,44 @@ footer a {
   margin: 0 10px;
   border-radius: 30px;
 }
+.icon-grid {
+  margin: 45px 0 30px 0;
+}
 @media (min-width: 768px) {
   .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-     gap: 15px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    width: 99%;
   }
   .grid-item {
-    padding: 0 20px;
+    padding: 0 40px;
+  }
+  main {
+    margin: 15px 65px;
   }
   .item {
     
   }
   .block-container {
     display: grid;
+    place-items: center;
     grid-template-columns: repeat(3, 1fr);
-     gap: 15px 10px;
+    gap: 15px;
+  }
+  .block-1, .block-2 {
+    width: 275px;
+    height: 275px;
   }
   header p {
     font-size: 0.53rem;
   } 
   p {
     font-size: 0.63em;
+  }
+  .icon-grid {
+    display: flex;
+    justify-content: center;
   }
 }
 .colored { color: #34AFCB; }
