@@ -344,7 +344,7 @@ footer .icon-grid a {
 .icon-grid {
     margin: 45px 0 30px 0;
 }
-@media (min-width: 550px) {
+@media (min-width: 450px) {
     .grid {
         display: flex;
         justify-content: space-between;
@@ -362,7 +362,7 @@ footer .icon-grid a {
     .block-container {
         display: grid;
         place-items: center;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
     .block-1,
@@ -380,6 +380,11 @@ footer .icon-grid a {
         display: flex;
         justify-content: center;
     }
+}
+@media (min-width: 508px) {
+  .block-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 @media (min-width: 768px) {
   .block-container {
