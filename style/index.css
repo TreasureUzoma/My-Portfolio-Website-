@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/css2?family=Lexend&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Rubik&display=swap);
+@font-face {
+    font-family: "Clash Display Medium";
+    src: url("https://vickyjay.vercel.app/fonts/clash/ClashDisplay-Medium.otf")
+        format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 a {
     text-decoration: none;
 }
@@ -41,8 +49,12 @@ header {
     background: linear-gradient(to right, #fcfae9, #dfe9fe);
     -webkit-background-clip: text;
     color: transparent;
-    line-height: 2.6rem;
-    animation: colorChange 2.3s infinite;
+    font-family: "Clash Display Medium", sans-serif;
+    font-weight: bolder;
+    animation: colorChange 2.8s infinite;
+}
+h2 {
+    font-family: "Clash Display Medium";
 }
 @keyframes colorChange {
     0% {
@@ -382,14 +394,14 @@ footer .icon-grid a {
     }
 }
 @media (min-width: 508px) {
-  .block-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
+    .block-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 @media (min-width: 768px) {
-  .block-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
+    .block-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 .colored {
     color: #34afcb;
