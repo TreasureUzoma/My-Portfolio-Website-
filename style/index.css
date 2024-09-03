@@ -377,11 +377,6 @@ footer .icon-grid a {
         grid-template-columns: repeat(1, 1fr);
         gap: 15px;
     }
-    .block-1,
-    .block-2 {
-        width: 275px;
-        height: 275px;
-    }
     header p {
         font-size: 0.53rem;
     }
@@ -393,15 +388,29 @@ footer .icon-grid a {
         justify-content: center;
     }
 }
-@media (min-width: 508px) {
+@media (min-width: 470px) {
+    .block-1, .block-2 {
+        width: 275px;
+        height: 275px;
+    }
+    .block-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 768px) {
+    .block-1, .block-2 {
+        width: 295px;
+        height: 295px;
+    }
     .block-container {
         grid-template-columns: repeat(3, 1fr);
     }
 }
-@media (min-width: 768px) {
-    .block-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
+@media (timeline-item: 900px) {
+  .block-1, .block-2 {
+    width: 330px;
+    height: 330px;
+  }
 }
 .colored {
     color: #34afcb;
