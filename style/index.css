@@ -389,7 +389,8 @@ footer .icon-grid a {
     }
 }
 @media (min-width: 470px) {
-    .block-1, .block-2 {
+    .block-1,
+    .block-2 {
         width: 275px;
         height: 275px;
     }
@@ -398,7 +399,11 @@ footer .icon-grid a {
     }
 }
 @media (min-width: 768px) {
-    .block-1, .block-2 {
+    header .grid {
+        height: 70vh;
+    }
+    .block-1,
+    .block-2 {
         width: 295px;
         height: 295px;
     }
@@ -407,10 +412,11 @@ footer .icon-grid a {
     }
 }
 @media (timeline-item: 900px) {
-  .block-1, .block-2 {
-    width: 330px;
-    height: 330px;
-  }
+    .block-1,
+    .block-2 {
+        width: 330px;
+        height: 330px;
+    }
 }
 .colored {
     color: #34afcb;
