@@ -149,11 +149,8 @@ main p {
     overflow: hidden;
     padding: 10px 25px;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 15px 0;
-}
-.block-1:focus {
 }
 .block-left::before {
     content: "";
@@ -207,7 +204,6 @@ main p {
     overflow: hidden;
     padding: 25px;
     display: flex;
-    justify-content: center;
     align-items: center;
     margin: 20px 0;
 }
